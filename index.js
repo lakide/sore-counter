@@ -9,6 +9,7 @@ clearEl.addEventListener('dblclick', function () {
 })
 
 function add1() {
+   
     count1 += 1
     updateScoreBoard();
 }
@@ -21,14 +22,17 @@ function add3() {
     updateScoreBoard();
 }
 function sub1(){
+    if(count1 - 1 < 0 )return;
     count1 -= 1
     updateScoreBoard();
 }
 function sub2(){
+    if(count1 - 2 < 0 )return;
     count1 -= 2
     updateScoreBoard();
 }
 function sub3(){
+    if(count1 - 3 < 0 )return;
     count1 -= 3
     updateScoreBoard();
 }
@@ -49,14 +53,17 @@ function add3g() {
     updateScoreBoard()
 }
 function sub1g(){
+    if(count2 - 1 < 0 )return;
     count2 -= 1
     updateScoreBoard();
 }
 function sub2g(){
+    if(count2 - 2 < 0 )return;
     count2 -= 2
     updateScoreBoard();
 }
 function sub3g(){
+    if(count2 - 3 < 0 )return;
     count2 -= 3
     updateScoreBoard();
 }
@@ -64,7 +71,10 @@ function sub3g(){
 function updateScoreBoard() {
     countEl1.textContent = count1
     countEl2.textContent = count2
+
+
 }
+
 function clear() {
     count1 = 0;
     count2 = 0;
@@ -173,6 +183,7 @@ function addp() {
     countEl3.textContent = count3
 }
 function subp() {
+    if(count3 - 1 < 0 )return;
     count3 -= 1
     countEl3.textContent = count3
 }
