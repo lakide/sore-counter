@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(ball.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(9, 46, 87);
+    color: white;
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 100PX;
+
+
+
+}
+
+.home {
+    padding: 40px;
+}
+
+.guest {
+    padding: 40px;
+}
+
+button {
+
+
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(9, 46, 87);
+    color: rgb(255, 183, 0);
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+}
+
+p {
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.heading {
+    POSITION: absolute;
+    transform: translate(18%, -160px);
+    color: white;
+    font-weight: bold;
+    font-size: 90px;
+}
+
+h1 {
+    color: red;
+    font-size: 100px;
+
+}
+
+h2 {
+    /* background-color: rgb(9, 46, 87); */
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.guest h2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.guest p {
+    margin-left: 131px;
+}
+
+.guest .num {
+    margin-left: 125px;
+}
+
+
+
+.num {
+    background: rgb(19, 15, 15);
+    width: 140px;
+    border-radius: 20px;
+}
+
+.num h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: -12px;
+}
+
+/* ==============timer===================== */
+.timer {
+    width: max-content;
+    /* padding-right: 20px; */
+}
+
+.timer h1 {
+    color: rgb(10, 238, 10);
+    text-align: center;
+    font-size: 40px;
+}
+
+.digit {
+    background: rgb(19, 15, 15);
+    font-size: 30px;
+    color: whitesmoke;
+    border-radius: 20%;
+}
+
+.txt {
+    background: rgb(19, 15, 15);
+    font-size: 20px;
+    color: red;
+    border-radius: 20%;
+}
+
+#buttons {
+    margin-top: 35px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    padding-left: 60px;
+}
+
+
+.btn {
+    width: 80px;
+    height: 45px;
+    /* padding: 10px 15px; */
+    /* margin: 0px 20px; */
+    transition: 0.5s;
+    background-color: rgb(9, 46, 87);
+    font-size: 15px;
+
+
+}
+
+#start {
+
+    color: rgb(10, 238, 10);
+    font-size: 20px;
+}
+
+#stop {
+
+    color: red;
+    font-size: 20px;
+}
+
+#reset {
+    color: #ea821a;
+    font-size: 20px;
+}
