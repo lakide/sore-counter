@@ -6,31 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SCORE-COUNTER</title>
   <link rel="stylesheet" href="index.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="Basketball-playe-isolated-on-transparent-background-PNG-removebg-preview.png">
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="Basketball-playe-isolated-on-transparent-background-PNG-removebg-preview.png">
   <link rel="stylesheet" href="https://www.fontspace.com/e1234-font-f65141">
 </head>
 
 <body>
 
   <div class="container">
-    <h1 class="heading">SCORE BOARD</h1>
+
+    <h1 class="heading">SCORE BOARD
+      <hr>
+    </h1>
+
     <div class="home">
       <h2>HOME</h2>
+
+      <div class="logo">
+        <img src="dunk-king-logo.png" style="width: 90px; height: 90px; background: black;  border-radius: 50%;">
+      </div>
       <p style="color: #ea821a;"> score is:</p>
       <div class="num">
         <h1 id="count-el1">0</h1>
       </div>
-      <button onclick="add1()"> +1 </button>
-      <button onclick="add2()"> +2 </button>
-      <button onclick="add3()"> +3 </button>
-                  <br>
-      <button ondblclick="sub1()"> -1 </button>
-      <button ondblclick="sub2()"> -2 </button>
-      <button ondblclick="sub3()"> -3 </button>
-
+      
+        <button onclick="add1()"> +1 </button>
+        <button onclick="add2()"> +2 </button>
+        <button onclick="add3()"> +3 </button>
+        <br>
+        <button ondblclick="sub1()"> -1 </button>
+        <button ondblclick="sub2()"> -2 </button>
+        <button ondblclick="sub3()"> -3 </button>
+      
     </div>
-    <div class="timer">
 
+    <div class="timer">
+      <div class="logo">
+        <img src="Basketball-playe-isolated-on-transparent-background-PNG-removebg-preview.png "
+          style="width: 90px; height: 90px; margin-top: -90px;margin-left: 60px; background: black;  border-radius: 50%;">
+      </div>
       <h1>TIME</h1>
       <div id="time">
         <span class="digit" id="hr">
@@ -56,7 +70,7 @@
           Clear All.. </button>
 
         <h2 style="margin-left: 
-            15px; font-size: 25px;">QTR</h2>
+            8px; font-size: 25px;">QTR</h2>
         <div class="num" style="margin-left: -27px;">
           <h1 id="count-el3">0</h1>
           <div style="display: flex;">
@@ -71,6 +85,11 @@
     </div>
     <div class="guest">
       <h2>GUEST</h2>
+
+      <div class="logo">
+        <img src="basketball-logo-sleep-sports.png"
+          style="width: 90px; height: 90px; margin-left: 130px; background: black;  border-radius: 50%;">
+      </div>
       <p style="color: #ea821a;"> score is: </p>
       <div class="num">
         <h1 id="count-el2">0</h1>
@@ -78,7 +97,7 @@
       <button onclick="add1g()"> +1 </button>
       <button onclick="add2g()"> +2 </button>
       <button onclick="add3g()"> +3 </button>
-                    <br>
+      <br>
       <button ondblclick="sub1g()"> -1 </button>
       <button ondblclick="sub2g()"> -2 </button>
       <button ondblclick="sub3g()"> -3 </button>

@@ -1,6 +1,18 @@
 body {
+    margin: auto;
+    padding: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #ea821a;
+    background-image:url(glove.png) ;
+    /* background-repeat: no-repeat; */
+    background-size: 500px;
+    
 }
+/* .logo{
+    background-image: url(ball.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 .container {
     display: flex;
@@ -11,7 +23,7 @@ body {
     background-color: rgb(9, 46, 87);
     color: white;
     width: 900px;
-    height: 600px;
+    height: 625px;
     margin: auto;
     border-radius: 20px;
     padding-top: 100PX;
@@ -45,20 +57,23 @@ p {
     padding-right: 20px;
     font-weight: bold;
     font-size: 20px;
+    
 }
 
 .heading {
     POSITION: absolute;
-    transform: translate(9%, -160px);
+    transform: translate(1%, -160px);
     color: white;
     font-weight: bold;
     font-size: 90px;
+    
 }
 
 h1 {
     color: red;
     font-size: 100px;
     letter-spacing: 10px;
+    word-spacing: 100px;
 
 }
 
@@ -75,11 +90,11 @@ h2 {
 }
 
 .guest p {
-    margin-left: 125px;
+    margin-left: 110px;
 }
 
 .guest .num {
-    margin-left: 125px;
+    margin-left: 110px;
 }
 
 
@@ -99,7 +114,7 @@ h2 {
 /* ==============timer===================== */
 .timer {
     width: max-content;
-    /* padding-right: 20px; */
+    margin-top: 20px;
 }
 
 .timer h1 {
