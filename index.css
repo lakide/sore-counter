@@ -11,7 +11,7 @@ body {
 
 @media only screen and (max-width : 500px) {
     body{
-        transform: rotate(90deg);
+        /* transform: rotate(90deg); */
         width: 1000px;
         height: 1000px;
     }
