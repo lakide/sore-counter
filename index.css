@@ -9,9 +9,9 @@ body {
     
 }
 
-@media only screen and (max-width : 500px) {
+@media only screen and (max-width : 380px) {
     body{
-        /* transform: rotate(90deg); */
+        transform: rotate(90deg);
         width: 1000px;
         height: 1000px;
     }
@@ -41,10 +41,12 @@ body {
 
 
 }
-@media only screen and (max-width : 500px){
+@media only screen and (max-width : 380px){
     .container{
       
-        position: absolute;
+        
+        width: 1378px;
+        height: 800px;
     }
 }
 
