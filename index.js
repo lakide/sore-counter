@@ -104,12 +104,19 @@ let second = 00;
 let count = 00;
 
 startBtn.addEventListener('click', function () {
-    timer = true;
-    stopWatch();
+    if (!startBtn.disabled) {
+        timer = true;
+        stopWatch();
+    
+        // Set the disabled attribute to true
+        startBtn.disabled = true;
+      }
 });
 
 stopBtn.addEventListener('click', function () {
     timer = false;
+    startBtn.disabled = false;
+
 });
 
 resetBtn.addEventListener('click', function () {
