@@ -8,6 +8,14 @@ body {
     background-size: 500px;
     
 }
+
+@media only screen and (max-width : 500px) {
+    body{
+        transform: rotate(90deg);
+    }
+
+    
+}
 /* .logo{
     background-image: url(ball.png);
     background-repeat: no-repeat;
