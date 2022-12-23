@@ -49,15 +49,18 @@ body {
         height: 800px;
     }
     .heading{
-        transform: translate(31%, -160px) !important;
+        transform: translate(30%, -160px) !important;
     }
     button{
         width: 115px !important;
         height: 70px !important;
     }
-    .num{
-        width: 200px !important;
+    .timer .logo{
+        display: none;
     }
+    /* .num{
+        width: 200px !important;
+    } */
 }
 
 .home {
